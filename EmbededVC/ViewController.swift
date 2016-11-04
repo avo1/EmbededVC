@@ -28,6 +28,7 @@ class ViewController: UIViewController {
 
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // this segue will trigger as soon as the VC is loaded
         if segue.identifier == "mySegue" {
             containerVC = segue.destination as? EmbededViewController
             containerVC!.containerToMaster = self
@@ -36,7 +37,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: ContainerToMaster {
-    func changeLabel(text: String) {
+    func changeMasterLabel(text: String) {
         textFieldA.text = text
     }
 }

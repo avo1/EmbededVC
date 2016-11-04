@@ -9,7 +9,7 @@
 import UIKit
 
 protocol ContainerToMaster {
-    func changeLabel(text: String)
+    func changeMasterLabel(text: String)
 }
 
 class EmbededViewController: UIViewController {
@@ -26,7 +26,7 @@ class EmbededViewController: UIViewController {
     }
 
     @IBAction func onUpdate(_ sender: AnyObject) {
-        containerToMaster?.changeLabel(text: myTextField.text!)
+        containerToMaster?.changeMasterLabel(text: myTextField.text!)
     }
 
     func changeEmbededLabel(text: String) {
