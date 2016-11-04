@@ -12,6 +12,7 @@
 		18304C501DCCD1C600BF2FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18304C4E1DCCD1C600BF2FF4 /* Main.storyboard */; };
 		18304C521DCCD1C600BF2FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18304C511DCCD1C600BF2FF4 /* Assets.xcassets */; };
 		18304C551DCCD1C600BF2FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18304C531DCCD1C600BF2FF4 /* LaunchScreen.storyboard */; };
+		18304C5D1DCCD2C200BF2FF4 /* EmbededViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18304C5C1DCCD2C200BF2FF4 /* EmbededViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		18304C511DCCD1C600BF2FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18304C541DCCD1C600BF2FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18304C561DCCD1C600BF2FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18304C5C1DCCD2C200BF2FF4 /* EmbededViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbededViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				18304C4A1DCCD1C600BF2FF4 /* AppDelegate.swift */,
 				18304C4C1DCCD1C600BF2FF4 /* ViewController.swift */,
 				18304C4E1DCCD1C600BF2FF4 /* Main.storyboard */,
+				18304C5C1DCCD2C200BF2FF4 /* EmbededViewController.swift */,
 				18304C511DCCD1C600BF2FF4 /* Assets.xcassets */,
 				18304C531DCCD1C600BF2FF4 /* LaunchScreen.storyboard */,
 				18304C561DCCD1C600BF2FF4 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				18304C4D1DCCD1C600BF2FF4 /* ViewController.swift in Sources */,
 				18304C4B1DCCD1C600BF2FF4 /* AppDelegate.swift in Sources */,
+				18304C5D1DCCD2C200BF2FF4 /* EmbededViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
